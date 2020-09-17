@@ -3,6 +3,7 @@ class Puppy
   @@all = []
   def initialize(name, breed, age)
     @name, @breed, @age = name, breed, age
+    save
   end
 
   def save
